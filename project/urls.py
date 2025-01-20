@@ -21,5 +21,5 @@ urlpatterns = [
     #adding the routes to browser
     
     path('admin/', admin.site.urls),
-    path('', include('taskmanagement.urls'))
+    path(' ', include('taskmanagement.urls'))
 ]
