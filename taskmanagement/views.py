@@ -4,7 +4,7 @@ from django.shortcuts import HttpResponse
 # Create your views here.
 
 def home(request): #logic that i need to show are written here
-    return HttpResponse("Welcome Erish")
+    return render(request, 'home.html')
 
 def index(request): #logic that i need to show are written here
     return HttpResponse("This is index function")
